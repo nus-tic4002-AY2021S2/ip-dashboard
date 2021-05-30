@@ -1,318 +1,318 @@
-May 29, 2021 2:15:25 AM reposense.parser.CsvParser validateHeader
+May 30, 2021 2:30:32 AM reposense.parser.CsvParser validateHeader
 INFO: Parsed header of CSV file, repo-config.csv, and recognized columns: Ignore Commit List,  Repository's Location,  Branch,  File formats,  Ignore Glob List,  Ignore Authors List,  Ignore standalone config
-May 29, 2021 2:15:25 AM reposense.parser.CsvParser validateHeader
+May 30, 2021 2:30:32 AM reposense.parser.CsvParser validateHeader
 INFO: Parsed header of CSV file, author-config.csv, and recognized columns: Author's Emails,  Repository's Location,  Author's GitHub ID,  Branch,  Author's Display Name,  Ignore Glob List,  Author's Git Author Name
-May 29, 2021 2:15:25 AM reposense.model.AuthorConfiguration checkDuplicateAliases
+May 30, 2021 2:30:32 AM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias Dai Wei found. The alias will belong to the last author - daiweinus
-May 29, 2021 2:15:25 AM reposense.model.AuthorConfiguration checkDuplicateAliases
+May 30, 2021 2:30:32 AM reposense.model.AuthorConfiguration checkDuplicateAliases
 WARNING: Duplicate alias Dai Wei found. The alias will belong to the last author - daiweinus
-May 29, 2021 2:15:25 AM reposense.report.RepoCloner spawnCloneProcess
+May 30, 2021 2:30:33 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/Yiheng0410/ip.git...
-May 29, 2021 2:15:25 AM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/Chenduo1412/ip.git...
-May 29, 2021 2:15:25 AM reposense.report.RepoCloner spawnCloneProcess
+May 30, 2021 2:30:33 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/dgc5213/ip.git...
-May 29, 2021 2:15:25 AM reposense.report.RepoCloner spawnCloneProcess
+May 30, 2021 2:30:33 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/adi-kd0021/ip.git...
-May 29, 2021 2:15:25 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/dgc5213/ip.git to complete...
-May 29, 2021 2:15:25 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/Chenduo1412/ip.git to complete...
-May 29, 2021 2:15:25 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/adi-kd0021/ip.git to complete...
-May 29, 2021 2:15:25 AM reposense.report.RepoCloner waitForCloneProcess
+May 30, 2021 2:30:33 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/Chenduo1412/ip.git...
+May 30, 2021 2:30:33 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/Yiheng0410/ip.git to complete...
-May 29, 2021 2:15:25 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/Yiheng0410/ip.git completed!
-May 29, 2021 2:15:25 AM reposense.report.RepoCloner waitForCloneProcess
+May 30, 2021 2:30:33 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/Chenduo1412/ip.git to complete...
+May 30, 2021 2:30:33 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/dgc5213/ip.git to complete...
+May 30, 2021 2:30:33 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/adi-kd0021/ip.git to complete...
+May 30, 2021 2:30:33 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/Chenduo1412/ip.git completed!
-May 29, 2021 2:15:25 AM reposense.report.RepoCloner spawnCloneProcess
+May 30, 2021 2:30:33 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/binbinhui/ip.git...
-May 29, 2021 2:15:25 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [1/17] Analyzing https://github.com/Yiheng0410/ip.git (master)...
-May 29, 2021 2:15:25 AM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/Impala36/ip.git...
-May 29, 2021 2:15:25 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [2/17] Analyzing https://github.com/Chenduo1412/ip.git (master)...
-May 29, 2021 2:15:25 AM reposense.report.RepoCloner waitForCloneProcess
+May 30, 2021 2:30:33 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [1/17] Analyzing https://github.com/Chenduo1412/ip.git (master)...
+May 30, 2021 2:30:33 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/binbinhui/ip.git to complete...
-May 29, 2021 2:15:25 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/Impala36/ip.git to complete...
-May 29, 2021 2:15:25 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/adi-kd0021/ip.git completed!
-May 29, 2021 2:15:25 AM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/ZhengShijieNUS/ip.git...
-May 29, 2021 2:15:25 AM reposense.report.ReportGenerator updateRepoConfig
+May 30, 2021 2:30:33 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/Chenduo1412/ip.git (master) does not contain a standalone config file.
-May 29, 2021 2:15:25 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+May 30, 2021 2:30:33 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/Chenduo1412/ip.git (master)...
-May 29, 2021 2:15:25 AM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/Yiheng0410/ip.git (master) does not contain a standalone config file.
-May 29, 2021 2:15:25 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/ZhengShijieNUS/ip.git to complete...
-May 29, 2021 2:15:25 AM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/Yiheng0410/ip.git (master)...
-May 29, 2021 2:15:25 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+May 30, 2021 2:30:33 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/Yiheng0410/ip.git completed!
+May 30, 2021 2:30:33 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/adi-kd0021/ip.git completed!
+May 30, 2021 2:30:33 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/Impala36/ip.git...
+May 30, 2021 2:30:33 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [2/17] Analyzing https://github.com/Yiheng0410/ip.git (master)...
+May 30, 2021 2:30:33 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/Chenduo1412/ip.git (master)...
-May 29, 2021 2:15:25 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/Yiheng0410/ip.git (master)...
-May 29, 2021 2:15:26 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/Yiheng0410/ip.git (master)...
-May 29, 2021 2:15:26 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+May 30, 2021 2:30:33 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/Impala36/ip.git to complete...
+May 30, 2021 2:30:33 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/ZhengShijieNUS/ip.git...
+May 30, 2021 2:30:33 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/Yiheng0410/ip.git (master) does not contain a standalone config file.
+May 30, 2021 2:30:33 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/ZhengShijieNUS/ip.git to complete...
+May 30, 2021 2:30:33 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/Yiheng0410/ip.git (master)...
+May 30, 2021 2:30:33 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/Chenduo1412/ip.git (master)...
-May 29, 2021 2:15:26 AM reposense.report.RepoCloner waitForCloneProcess
+May 30, 2021 2:30:33 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/Yiheng0410/ip.git (master)...
+May 30, 2021 2:30:33 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/Yiheng0410/ip.git (master)...
+May 30, 2021 2:30:33 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/dgc5213/ip.git completed!
-May 29, 2021 2:15:26 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/Impala36/ip.git completed!
-May 29, 2021 2:15:26 AM reposense.report.RepoCloner spawnCloneProcess
+May 30, 2021 2:30:33 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/skyventus/ip.git...
-May 29, 2021 2:15:26 AM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/daiweinus/ip.git...
-May 29, 2021 2:15:26 AM reposense.report.RepoCloner waitForCloneProcess
+May 30, 2021 2:30:33 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/skyventus/ip.git to complete...
-May 29, 2021 2:15:26 AM reposense.report.RepoCloner waitForCloneProcess
+May 30, 2021 2:30:34 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/binbinhui/ip.git completed!
-May 29, 2021 2:15:26 AM reposense.report.RepoCloner waitForCloneProcess
+May 30, 2021 2:30:34 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/daiweinus/ip.git...
+May 30, 2021 2:30:34 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/daiweinus/ip.git to complete...
-May 29, 2021 2:15:26 AM reposense.report.RepoCloner spawnCloneProcess
+May 30, 2021 2:30:34 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/Impala36/ip.git completed!
+May 30, 2021 2:30:34 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/e0261618/ip.git...
-May 29, 2021 2:15:26 AM reposense.report.RepoCloner waitForCloneProcess
+May 30, 2021 2:30:34 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/e0261618/ip.git to complete...
-May 29, 2021 2:15:26 AM reposense.report.RepoCloner waitForCloneProcess
+May 30, 2021 2:30:34 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/ZhengShijieNUS/ip.git completed!
-May 29, 2021 2:15:26 AM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/Chilaiping/ip.git...
-May 29, 2021 2:15:26 AM reposense.report.RepoCloner waitForCloneProcess
+May 30, 2021 2:30:34 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/skyventus/ip.git completed!
-May 29, 2021 2:15:26 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/Chilaiping/ip.git to complete...
-May 29, 2021 2:15:26 AM reposense.report.RepoCloner spawnCloneProcess
+May 30, 2021 2:30:34 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/Chilaiping/ip.git...
+May 30, 2021 2:30:34 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/e0260222/ip.git...
-May 29, 2021 2:15:26 AM reposense.report.RepoCloner waitForCloneProcess
+May 30, 2021 2:30:34 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/Chilaiping/ip.git to complete...
+May 30, 2021 2:30:34 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/e0260222/ip.git to complete...
-May 29, 2021 2:15:26 AM reposense.report.RepoCloner waitForCloneProcess
+May 30, 2021 2:30:34 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Cloning of https://github.com/daiweinus/ip.git completed!
-May 29, 2021 2:15:26 AM reposense.report.RepoCloner spawnCloneProcess
+May 30, 2021 2:30:35 AM reposense.report.RepoCloner spawnCloneProcess
 INFO: Cloning in parallel from https://github.com/timmyly7/ip.git...
-May 29, 2021 2:15:26 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/e0261618/ip.git completed!
-May 29, 2021 2:15:26 AM reposense.report.RepoCloner waitForCloneProcess
+May 30, 2021 2:30:35 AM reposense.report.RepoCloner waitForCloneProcess
 INFO: Waiting for cloning of https://github.com/timmyly7/ip.git to complete...
-May 29, 2021 2:15:26 AM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/HongJiancheng/ip.git...
-May 29, 2021 2:15:26 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/HongJiancheng/ip.git to complete...
-May 29, 2021 2:15:27 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/Chilaiping/ip.git completed!
-May 29, 2021 2:15:27 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/timmyly7/ip.git completed!
-May 29, 2021 2:15:27 AM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/linqing42/ip.git...
-May 29, 2021 2:15:27 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/HongJiancheng/ip.git completed!
-May 29, 2021 2:15:27 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/e0260222/ip.git completed!
-May 29, 2021 2:15:27 AM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/JanuariusJang/ip.git...
-May 29, 2021 2:15:27 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/linqing42/ip.git to complete...
-May 29, 2021 2:15:27 AM reposense.report.RepoCloner spawnCloneProcess
-INFO: Cloning in parallel from https://github.com/tototto/ip.git...
-May 29, 2021 2:15:27 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/JanuariusJang/ip.git to complete...
-May 29, 2021 2:15:27 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Waiting for cloning of https://github.com/tototto/ip.git to complete...
-May 29, 2021 2:15:27 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/tototto/ip.git completed!
-May 29, 2021 2:15:27 AM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/Chenduo1412/ip.git (master) completed!
-May 29, 2021 2:15:27 AM reposense.report.ReportGenerator analyzeRepo
+May 30, 2021 2:30:35 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/e0261618/ip.git completed!
+May 30, 2021 2:30:35 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/Yiheng0410/ip.git (master) completed!
-May 29, 2021 2:15:27 AM reposense.report.ReportGenerator analyzeRepos
+May 30, 2021 2:30:35 AM reposense.report.ReportGenerator analyzeRepos
 INFO: [3/17] Analyzing https://github.com/adi-kd0021/ip.git (master)...
-May 29, 2021 2:15:27 AM reposense.report.ReportGenerator analyzeRepos
+May 30, 2021 2:30:35 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/HongJiancheng/ip.git...
+May 30, 2021 2:30:35 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/HongJiancheng/ip.git to complete...
+May 30, 2021 2:30:35 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/Chenduo1412/ip.git (master) completed!
+May 30, 2021 2:30:35 AM reposense.report.ReportGenerator analyzeRepos
 INFO: [4/17] Analyzing https://github.com/dgc5213/ip.git (master)...
-May 29, 2021 2:15:27 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/JanuariusJang/ip.git completed!
-May 29, 2021 2:15:28 AM reposense.report.RepoCloner waitForCloneProcess
-INFO: Cloning of https://github.com/linqing42/ip.git completed!
-May 29, 2021 2:15:28 AM reposense.report.ReportGenerator updateRepoConfig
+May 30, 2021 2:30:35 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/adi-kd0021/ip.git (master) does not contain a standalone config file.
-May 29, 2021 2:15:28 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+May 30, 2021 2:30:35 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/adi-kd0021/ip.git (master)...
-May 29, 2021 2:15:28 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+May 30, 2021 2:30:35 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/Chilaiping/ip.git completed!
+May 30, 2021 2:30:35 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/e0260222/ip.git completed!
+May 30, 2021 2:30:35 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/linqing42/ip.git...
+May 30, 2021 2:30:35 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/adi-kd0021/ip.git (master)...
-May 29, 2021 2:15:28 AM reposense.report.ReportGenerator updateRepoConfig
+May 30, 2021 2:30:35 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/dgc5213/ip.git (master) does not contain a standalone config file.
-May 29, 2021 2:15:28 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+May 30, 2021 2:30:35 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/dgc5213/ip.git (master)...
-May 29, 2021 2:15:28 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+May 30, 2021 2:30:35 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/adi-kd0021/ip.git (master)...
-May 29, 2021 2:15:28 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+May 30, 2021 2:30:35 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/JanuariusJang/ip.git...
+May 30, 2021 2:30:35 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/linqing42/ip.git to complete...
+May 30, 2021 2:30:35 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/JanuariusJang/ip.git to complete...
+May 30, 2021 2:30:35 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/dgc5213/ip.git (master)...
-May 29, 2021 2:15:28 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+May 30, 2021 2:30:35 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/dgc5213/ip.git (master)...
-May 29, 2021 2:15:28 AM reposense.report.ReportGenerator analyzeRepo
+May 30, 2021 2:30:35 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/timmyly7/ip.git completed!
+May 30, 2021 2:30:35 AM reposense.report.RepoCloner spawnCloneProcess
+INFO: Cloning in parallel from https://github.com/tototto/ip.git...
+May 30, 2021 2:30:35 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/HongJiancheng/ip.git completed!
+May 30, 2021 2:30:35 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Waiting for cloning of https://github.com/tototto/ip.git to complete...
+May 30, 2021 2:30:36 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/JanuariusJang/ip.git completed!
+May 30, 2021 2:30:36 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/linqing42/ip.git completed!
+May 30, 2021 2:30:36 AM reposense.report.RepoCloner waitForCloneProcess
+INFO: Cloning of https://github.com/tototto/ip.git completed!
+May 30, 2021 2:30:36 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/adi-kd0021/ip.git (master) completed!
-May 29, 2021 2:15:28 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [5/17] Analyzing https://github.com/Impala36/ip.git (master)...
-May 29, 2021 2:15:28 AM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/Impala36/ip.git (master) does not contain a standalone config file.
-May 29, 2021 2:15:28 AM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/Impala36/ip.git (master)...
-May 29, 2021 2:15:28 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/Impala36/ip.git (master)...
-May 29, 2021 2:15:28 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/Impala36/ip.git (master)...
-May 29, 2021 2:15:29 AM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/dgc5213/ip.git (master) completed!
-May 29, 2021 2:15:29 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [6/17] Analyzing https://github.com/binbinhui/ip.git (master)...
-May 29, 2021 2:15:29 AM reposense.report.ReportGenerator updateRepoConfig
+May 30, 2021 2:30:36 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [5/17] Analyzing https://github.com/binbinhui/ip.git (master)...
+May 30, 2021 2:30:36 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/binbinhui/ip.git (master) does not contain a standalone config file.
-May 29, 2021 2:15:29 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+May 30, 2021 2:30:36 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/binbinhui/ip.git (master)...
-May 29, 2021 2:15:29 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+May 30, 2021 2:30:36 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/binbinhui/ip.git (master)...
-May 29, 2021 2:15:29 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+May 30, 2021 2:30:36 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/binbinhui/ip.git (master)...
-May 29, 2021 2:15:29 AM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/Impala36/ip.git (master) completed!
-May 29, 2021 2:15:29 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [7/17] Analyzing https://github.com/ZhengShijieNUS/ip.git (master)...
-May 29, 2021 2:15:29 AM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/ZhengShijieNUS/ip.git (master) does not contain a standalone config file.
-May 29, 2021 2:15:29 AM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/ZhengShijieNUS/ip.git (master)...
-May 29, 2021 2:15:29 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/ZhengShijieNUS/ip.git (master)...
-May 29, 2021 2:15:29 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/ZhengShijieNUS/ip.git (master)...
-May 29, 2021 2:15:30 AM reposense.report.ReportGenerator analyzeRepo
+May 30, 2021 2:30:36 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/dgc5213/ip.git (master) completed!
+May 30, 2021 2:30:36 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [6/17] Analyzing https://github.com/Impala36/ip.git (master)...
+May 30, 2021 2:30:36 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/Impala36/ip.git (master) does not contain a standalone config file.
+May 30, 2021 2:30:36 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/Impala36/ip.git (master)...
+May 30, 2021 2:30:36 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/Impala36/ip.git (master)...
+May 30, 2021 2:30:36 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/Impala36/ip.git (master)...
+May 30, 2021 2:30:37 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/binbinhui/ip.git (master) completed!
-May 29, 2021 2:15:30 AM reposense.report.ReportGenerator analyzeRepos
+May 30, 2021 2:30:37 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [7/17] Analyzing https://github.com/ZhengShijieNUS/ip.git (master)...
+May 30, 2021 2:30:37 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/ZhengShijieNUS/ip.git (master) does not contain a standalone config file.
+May 30, 2021 2:30:37 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/ZhengShijieNUS/ip.git (master)...
+May 30, 2021 2:30:37 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/ZhengShijieNUS/ip.git (master)...
+May 30, 2021 2:30:37 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/ZhengShijieNUS/ip.git (master)...
+May 30, 2021 2:30:37 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/Impala36/ip.git (master) completed!
+May 30, 2021 2:30:37 AM reposense.report.ReportGenerator analyzeRepos
 INFO: [8/17] Analyzing https://github.com/skyventus/ip.git (master)...
-May 29, 2021 2:15:30 AM reposense.report.ReportGenerator updateRepoConfig
+May 30, 2021 2:30:37 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/skyventus/ip.git (master) does not contain a standalone config file.
-May 29, 2021 2:15:30 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+May 30, 2021 2:30:37 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/skyventus/ip.git (master)...
-May 29, 2021 2:15:30 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+May 30, 2021 2:30:37 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/skyventus/ip.git (master)...
-May 29, 2021 2:15:30 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+May 30, 2021 2:30:37 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/skyventus/ip.git (master)...
-May 29, 2021 2:15:30 AM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/ZhengShijieNUS/ip.git (master) completed!
-May 29, 2021 2:15:30 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [9/17] Analyzing https://github.com/daiweinus/ip.git (master)...
-May 29, 2021 2:15:30 AM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/daiweinus/ip.git (master) does not contain a standalone config file.
-May 29, 2021 2:15:30 AM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/daiweinus/ip.git (master)...
-May 29, 2021 2:15:30 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/daiweinus/ip.git (master)...
-May 29, 2021 2:15:30 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/daiweinus/ip.git (master)...
-May 29, 2021 2:15:30 AM reposense.report.ReportGenerator analyzeRepo
+May 30, 2021 2:30:37 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/skyventus/ip.git (master) completed!
-May 29, 2021 2:15:30 AM reposense.report.ReportGenerator analyzeRepos
+May 30, 2021 2:30:37 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [9/17] Analyzing https://github.com/daiweinus/ip.git (master)...
+May 30, 2021 2:30:37 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/daiweinus/ip.git (master) does not contain a standalone config file.
+May 30, 2021 2:30:37 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/daiweinus/ip.git (master)...
+May 30, 2021 2:30:37 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/daiweinus/ip.git (master)...
+May 30, 2021 2:30:37 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/daiweinus/ip.git (master)...
+May 30, 2021 2:30:37 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/ZhengShijieNUS/ip.git (master) completed!
+May 30, 2021 2:30:37 AM reposense.report.ReportGenerator analyzeRepos
 INFO: [10/17] Analyzing https://github.com/e0261618/ip.git (master)...
-May 29, 2021 2:15:30 AM reposense.report.ReportGenerator updateRepoConfig
+May 30, 2021 2:30:37 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/e0261618/ip.git (master) does not contain a standalone config file.
-May 29, 2021 2:15:30 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+May 30, 2021 2:30:37 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/e0261618/ip.git (master)...
-May 29, 2021 2:15:30 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+May 30, 2021 2:30:37 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/e0261618/ip.git (master)...
-May 29, 2021 2:15:30 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+May 30, 2021 2:30:37 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/e0261618/ip.git (master)...
-May 29, 2021 2:15:30 AM reposense.report.ReportGenerator analyzeRepo
+May 30, 2021 2:30:37 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/daiweinus/ip.git (master) completed!
-May 29, 2021 2:15:30 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [11/17] Analyzing https://github.com/Chilaiping/ip.git (master)...
-May 29, 2021 2:15:30 AM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/Chilaiping/ip.git (master) does not contain a standalone config file.
-May 29, 2021 2:15:30 AM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/Chilaiping/ip.git (master)...
-May 29, 2021 2:15:30 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/Chilaiping/ip.git (master)...
-May 29, 2021 2:15:30 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/Chilaiping/ip.git (master)...
-May 29, 2021 2:15:31 AM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/e0261618/ip.git (master) completed!
-May 29, 2021 2:15:31 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [12/17] Analyzing https://github.com/HongJiancheng/ip.git (master)...
-May 29, 2021 2:15:31 AM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/HongJiancheng/ip.git (master) does not contain a standalone config file.
-May 29, 2021 2:15:31 AM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/HongJiancheng/ip.git (master)...
-May 29, 2021 2:15:31 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/HongJiancheng/ip.git (master)...
-May 29, 2021 2:15:31 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/HongJiancheng/ip.git (master)...
-May 29, 2021 2:15:31 AM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/Chilaiping/ip.git (master) completed!
-May 29, 2021 2:15:31 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [13/17] Analyzing https://github.com/timmyly7/ip.git (master)...
-May 29, 2021 2:15:31 AM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/timmyly7/ip.git (master) does not contain a standalone config file.
-May 29, 2021 2:15:31 AM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/timmyly7/ip.git (master)...
-May 29, 2021 2:15:31 AM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/HongJiancheng/ip.git (master) completed!
-May 29, 2021 2:15:31 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [14/17] Analyzing https://github.com/e0260222/ip.git (master)...
-May 29, 2021 2:15:31 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/timmyly7/ip.git (master)...
-May 29, 2021 2:15:31 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/timmyly7/ip.git (master)...
-May 29, 2021 2:15:31 AM reposense.report.ReportGenerator updateRepoConfig
+May 30, 2021 2:30:38 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [11/17] Analyzing https://github.com/e0260222/ip.git (master)...
+May 30, 2021 2:30:38 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/e0260222/ip.git (master) does not contain a standalone config file.
-May 29, 2021 2:15:31 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+May 30, 2021 2:30:38 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/e0260222/ip.git (master)...
-May 29, 2021 2:15:31 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+May 30, 2021 2:30:38 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/e0260222/ip.git (master)...
-May 29, 2021 2:15:31 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+May 30, 2021 2:30:38 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/e0260222/ip.git (master)...
-May 29, 2021 2:15:31 AM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/timmyly7/ip.git (master) completed!
-May 29, 2021 2:15:31 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [15/17] Analyzing https://github.com/tototto/ip.git (master)...
-May 29, 2021 2:15:31 AM reposense.report.ReportGenerator updateRepoConfig
-INFO: https://github.com/tototto/ip.git (master) does not contain a standalone config file.
-May 29, 2021 2:15:31 AM reposense.commits.CommitInfoExtractor extractCommitInfos
-INFO: Extracting commits info for https://github.com/tototto/ip.git (master)...
-May 29, 2021 2:15:31 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
-INFO: Analyzing commits info for https://github.com/tototto/ip.git (master)...
-May 29, 2021 2:15:31 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
-INFO: Extracting relevant file info from https://github.com/tototto/ip.git (master)...
-May 29, 2021 2:15:32 AM reposense.report.ReportGenerator analyzeRepo
+May 30, 2021 2:30:38 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/e0261618/ip.git (master) completed!
+May 30, 2021 2:30:38 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [12/17] Analyzing https://github.com/Chilaiping/ip.git (master)...
+May 30, 2021 2:30:38 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/Chilaiping/ip.git (master) does not contain a standalone config file.
+May 30, 2021 2:30:38 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/Chilaiping/ip.git (master)...
+May 30, 2021 2:30:38 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/Chilaiping/ip.git (master)...
+May 30, 2021 2:30:38 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/Chilaiping/ip.git (master)...
+May 30, 2021 2:30:38 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/e0260222/ip.git (master) completed!
-May 29, 2021 2:15:32 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [16/17] Analyzing https://github.com/JanuariusJang/ip.git (master)...
-May 29, 2021 2:15:32 AM reposense.report.ReportGenerator updateRepoConfig
+May 30, 2021 2:30:38 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [13/17] Analyzing https://github.com/timmyly7/ip.git (master)...
+May 30, 2021 2:30:38 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/timmyly7/ip.git (master) does not contain a standalone config file.
+May 30, 2021 2:30:38 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/timmyly7/ip.git (master)...
+May 30, 2021 2:30:38 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/timmyly7/ip.git (master)...
+May 30, 2021 2:30:38 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/timmyly7/ip.git (master)...
+May 30, 2021 2:30:38 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/Chilaiping/ip.git (master) completed!
+May 30, 2021 2:30:38 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [14/17] Analyzing https://github.com/HongJiancheng/ip.git (master)...
+May 30, 2021 2:30:38 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/HongJiancheng/ip.git (master) does not contain a standalone config file.
+May 30, 2021 2:30:38 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/HongJiancheng/ip.git (master)...
+May 30, 2021 2:30:38 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/HongJiancheng/ip.git (master)...
+May 30, 2021 2:30:38 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/HongJiancheng/ip.git (master)...
+May 30, 2021 2:30:38 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/timmyly7/ip.git (master) completed!
+May 30, 2021 2:30:38 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [15/17] Analyzing https://github.com/JanuariusJang/ip.git (master)...
+May 30, 2021 2:30:38 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/JanuariusJang/ip.git (master) does not contain a standalone config file.
-May 29, 2021 2:15:32 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+May 30, 2021 2:30:38 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/JanuariusJang/ip.git (master)...
-May 29, 2021 2:15:32 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+May 30, 2021 2:30:38 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/JanuariusJang/ip.git (master)...
-May 29, 2021 2:15:32 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+May 30, 2021 2:30:38 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/JanuariusJang/ip.git (master)...
-May 29, 2021 2:15:32 AM reposense.report.ReportGenerator analyzeRepo
-INFO: Analysis of https://github.com/tototto/ip.git (master) completed!
-May 29, 2021 2:15:32 AM reposense.report.ReportGenerator analyzeRepos
-INFO: [17/17] Analyzing https://github.com/linqing42/ip.git (master)...
-May 29, 2021 2:15:32 AM reposense.report.ReportGenerator updateRepoConfig
+May 30, 2021 2:30:38 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/HongJiancheng/ip.git (master) completed!
+May 30, 2021 2:30:38 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [16/17] Analyzing https://github.com/linqing42/ip.git (master)...
+May 30, 2021 2:30:38 AM reposense.report.ReportGenerator updateRepoConfig
 INFO: https://github.com/linqing42/ip.git (master) does not contain a standalone config file.
-May 29, 2021 2:15:32 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+May 30, 2021 2:30:38 AM reposense.commits.CommitInfoExtractor extractCommitInfos
 INFO: Extracting commits info for https://github.com/linqing42/ip.git (master)...
-May 29, 2021 2:15:32 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+May 30, 2021 2:30:39 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
 INFO: Analyzing commits info for https://github.com/linqing42/ip.git (master)...
-May 29, 2021 2:15:32 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+May 30, 2021 2:30:39 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
 INFO: Extracting relevant file info from https://github.com/linqing42/ip.git (master)...
-May 29, 2021 2:15:32 AM reposense.report.ReportGenerator analyzeRepo
+May 30, 2021 2:30:39 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/JanuariusJang/ip.git (master) completed!
-May 29, 2021 2:15:32 AM reposense.report.ReportGenerator analyzeRepo
+May 30, 2021 2:30:39 AM reposense.report.ReportGenerator analyzeRepos
+INFO: [17/17] Analyzing https://github.com/tototto/ip.git (master)...
+May 30, 2021 2:30:39 AM reposense.report.ReportGenerator updateRepoConfig
+INFO: https://github.com/tototto/ip.git (master) does not contain a standalone config file.
+May 30, 2021 2:30:39 AM reposense.commits.CommitInfoExtractor extractCommitInfos
+INFO: Extracting commits info for https://github.com/tototto/ip.git (master)...
+May 30, 2021 2:30:39 AM reposense.commits.CommitInfoAnalyzer analyzeCommits
+INFO: Analyzing commits info for https://github.com/tototto/ip.git (master)...
+May 30, 2021 2:30:39 AM reposense.authorship.FileInfoExtractor extractTextFileInfos
+INFO: Extracting relevant file info from https://github.com/tototto/ip.git (master)...
+May 30, 2021 2:30:39 AM reposense.report.ReportGenerator analyzeRepo
 INFO: Analysis of https://github.com/linqing42/ip.git (master) completed!
-May 29, 2021 2:15:32 AM reposense.report.ReportGenerator generateReposReport
+May 30, 2021 2:30:39 AM reposense.report.ReportGenerator analyzeRepo
+INFO: Analysis of https://github.com/tototto/ip.git (master) completed!
+May 30, 2021 2:30:39 AM reposense.report.ReportGenerator generateReposReport
 INFO: The report is generated at /home/runner/work/ip-dashboard/ip-dashboard/reposense-report
-May 29, 2021 2:15:32 AM reposense.RepoSense main
-INFO: Elapsed processing time: 7.86 second(s)
+May 30, 2021 2:30:39 AM reposense.RepoSense main
+INFO: Elapsed processing time: 6.74 second(s)
